@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/PiekharievaK/goit-js-hw-11/static/css/main.7acaea2f.css",
+    "main.js": "/PiekharievaK/goit-js-hw-11/static/js/main.44ea8bc1.js",
+    "static/js/787.6b7abe35.chunk.js": "/PiekharievaK/goit-js-hw-11/static/js/787.6b7abe35.chunk.js",
+    "index.html": "/PiekharievaK/goit-js-hw-11/index.html",
+    "main.7acaea2f.css.map": "/PiekharievaK/goit-js-hw-11/static/css/main.7acaea2f.css.map",
+    "main.44ea8bc1.js.map": "/PiekharievaK/goit-js-hw-11/static/js/main.44ea8bc1.js.map",
+    "787.6b7abe35.chunk.js.map": "/PiekharievaK/goit-js-hw-11/static/js/787.6b7abe35.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.44ea8bc1.js"
+  ]
+}
