@@ -12,8 +12,8 @@ function Profile({ className, username, tag, location, avatar, stats }) {
                 className={s.Avatar}
                 style={{height: "200px"}}
             />
-            <p className={s.Name}      >{username}</p>
-            <p className={s.Tag}      >{tag}</p>
+            <p className={s.Name} >{username}</p>
+            <p className={s.Tag} >@{tag}</p>
             <p className={s.Location}>{location}</p>
         </div>
 

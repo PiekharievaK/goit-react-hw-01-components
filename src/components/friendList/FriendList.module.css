@@ -24,6 +24,7 @@
 .Item:hover {
   cursor: pointer;
   box-shadow: 2px 7px 7px hsla(0, 0%, 0%, 0.15);
+  background-color: antiquewhite;
 }
 
 .Avatar {
