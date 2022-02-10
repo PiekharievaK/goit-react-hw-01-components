@@ -1,34 +1,34 @@
 import PropTypes from "prop-types";
-
+import s from './Profile.module.css';
 
 function Profile({ className, username, tag, location, avatar, stats }) {
     // props = { className, username, tag, location, avatar, stats };
  
-    return (<div className="profile">
-        <div className="description">
+    return (<div className={s.Profile}>
+        <div className={s.Description}>
             <img
                 src={avatar }
                 alt="User avatar"
-                className="avatar"
+                className={s.Avatar}
                 style={{height: "200px"}}
             />
-            <p className="name">{username}</p>
-            <p className="tag">{tag}</p>
-            <p className="location">{location}</p>
+            <p className={s.Name}      >{username}</p>
+            <p className={s.Tag}      >{tag}</p>
+            <p className={s.Location}>{location}</p>
         </div>
 
-        <ul className="stats">
-            <li>
-                <span className="label">Followers: </span>
-                <span className="quantity">{stats.followers}</span>
+        <ul className={s.Stats}>
+            <li className={s.Item}>
+                <span className={s.Label}>Followers: </span>
+                <span className={s.Quantity}>{stats.followers}</span>
             </li>
-            <li>
-                <span className="label">Views: </span>
-                <span className="quantity">{stats.views}</span>
+            <li className={s.Item}>
+                <span className={s.Label}>Views: </span>
+                <span className={s.Quantity}>{stats.views}</span>
             </li>
-            <li>
-                <span className="label">Likes: </span>
-                <span className="quantity">{stats.likes}</span>
+            <li className={s.Item}>
+                <span className={s.Label}>Likes: </span>
+                <span className={s.Quantity}>{stats.likes}</span>
             </li>
         </ul>
     </div>)
